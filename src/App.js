@@ -1,12 +1,14 @@
 import React from "react";
-import Practice from "./Practice"
+import PracticeFunciton from "./PracticeFunciton"
 import PracticeClass from "./PracticeClass"
+import Header from "./Header"
 import "./style.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Practice />
+      <Header />
+      <PracticeFunciton />
       <PracticeClass />
     </div>
     

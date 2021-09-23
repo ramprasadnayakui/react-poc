@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 
-function Practice() {
+function PracticeFunciton() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -24,4 +24,4 @@ function Practice() {
   
 }
 
-export default Practice;
+export default PracticeFunciton;
