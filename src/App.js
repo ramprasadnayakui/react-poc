@@ -1,16 +1,15 @@
-import React from "react";
-import PracticeFunciton from "./PracticeFunciton"
-import PracticeClass from "./PracticeClass"
-import Header from "./Header"
-import "./style.css";
+import React from 'react';
+import './App.css';
+import Navigation from './components/Navbar';
+import Routes from './Routes';
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <Header />
-      <PracticeFunciton />
-      <PracticeClass />
+      <Navigation />
+      <Routes />
     </div>
-    
   );
 }
+
+export default App;
