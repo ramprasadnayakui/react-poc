@@ -4,7 +4,7 @@ import { Router, Switch, Route } from "react-router-dom";
 import pClass from "./components/PracticeClass";
 import pFunc from "./components/PracticeFunction";
 import Home from "./components/Home";
-import timer from "./components/Timer";
+import counter from "./components/Counter";
 import history from './history';
 
 export default class Routes extends Component {
@@ -15,7 +15,7 @@ export default class Routes extends Component {
                     <Route path="/" exact component={Home} />
                     <Route path="/PC1" component={pClass} />
                     <Route path="/PF1" component={pFunc} />
-                    <Route path="/Timer" component={timer} />
+                    <Route path="/Timer" component={counter} />
                 </Switch>
             </Router>
         )

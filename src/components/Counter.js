@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from "react"
 import { Button } from 'react-bootstrap';
-import "./Timer.css";
+import "./Counter.css";
 
-export default function Timer(){
+export default function Counter(){
   const [count, setCount] = useState(0);
-  const [isPaused, setPause] = useState(true);
   const [intervalId, setIntervalId] = useState(0)
 
   const startCount = () => {
@@ -22,7 +21,7 @@ const stopCount = () => {
     <div className="Timer">
       <div className="lander">
         <Button className="startCount" onClick={startCount}>Start</Button>
-        <h4>Current time: {count}</h4>
+        <h4>Counter: {count}</h4>
         <Button className="stopCount" onClick={stopCount}>Stop</Button>
       </div>
    </div>
