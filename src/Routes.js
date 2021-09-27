@@ -6,6 +6,7 @@ import pFunc from "./components/PracticeFunction";
 import Home from "./components/Home";
 import counter from "./components/Counter";
 import table from "./components/Table";
+import reduxExa from "./components/reduxExa";
 import history from './history';
 
 export default class Routes extends Component {
@@ -18,6 +19,7 @@ export default class Routes extends Component {
                     <Route path="/PF1" component={pFunc} />
                     <Route path="/Counter" component={counter} />
                     <Route path="/Table" component={table} />
+                    <Route path="/redux" component={reduxExa} />
                 </Switch>
             </Router>
         )

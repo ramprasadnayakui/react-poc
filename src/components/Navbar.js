@@ -11,10 +11,11 @@ const Navigation = (props) => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/PC1">Clas_comp-1</Nav.Link>
-                    <Nav.Link href="/PF1">Func_comp-1</Nav.Link>
+                    <Nav.Link href="/PC1">CC1</Nav.Link>
+                    <Nav.Link href="/PF1">FC1</Nav.Link>
                     <Nav.Link href="/Counter">Counter</Nav.Link>
                     <Nav.Link href="/Table">Table</Nav.Link>
+                    <Nav.Link href="/Redux">Redux</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
