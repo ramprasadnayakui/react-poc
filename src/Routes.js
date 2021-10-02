@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import counter from "./components/Counter";
 import table from "./components/Table";
 import reduxExa from "./components/reduxExa";
+import hoc from "./components/hoc";
 import history from './history';
 
 export default class Routes extends Component {
@@ -20,6 +21,7 @@ export default class Routes extends Component {
                     <Route path="/Counter" component={counter} />
                     <Route path="/Table" component={table} />
                     <Route path="/redux" component={reduxExa} />
+                    <Route path="/hoc" component={hoc} />
                 </Switch>
             </Router>
         )
