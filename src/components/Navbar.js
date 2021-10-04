@@ -17,6 +17,7 @@ const Navigation = (props) => {
                     <Nav.Link href="/Table">Table</Nav.Link>
                     <Nav.Link href="/Redux">Redux</Nav.Link>
                     <Nav.Link href="/hoc">HOC</Nav.Link>
+                    <Nav.Link href="/thunk">Thunk</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
