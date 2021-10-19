@@ -9,6 +9,7 @@ import table from "./components/Table";
 import reduxExa from "./components/reduxExa";
 import hoc from "./components/hoc";
 import thunk from "./components/thunk";
+import fibonacci from "./components/Fibonacci"
 
 import history from './history';
 
@@ -25,6 +26,7 @@ export default class Routes extends Component {
                     <Route path="/redux" component={reduxExa} />
                     <Route path="/hoc" component={hoc} />
                     <Route path="/thunk" component={thunk} />
+                    <Route path="/fibonacci" component={fibonacci} />
                 </Switch>
             </Router>
         )
