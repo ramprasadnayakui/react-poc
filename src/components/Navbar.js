@@ -19,6 +19,7 @@ const Navigation = (props) => {
                     <Nav.Link href="/hoc">HOC</Nav.Link>
                     <Nav.Link href="/thunk">Thunk</Nav.Link>
                     <Nav.Link href="/fibonacci">Fibonacci</Nav.Link>
+                    <Nav.Link href="/search">Search</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
