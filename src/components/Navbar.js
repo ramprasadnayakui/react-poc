@@ -20,6 +20,7 @@ const Navigation = (props) => {
                     <Nav.Link href="/thunk">Thunk</Nav.Link>
                     <Nav.Link href="/fibonacci">Fibonacci</Nav.Link>
                     <Nav.Link href="/search">Search</Nav.Link>
+                    <Nav.Link href="/closure">Closure</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

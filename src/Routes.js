@@ -11,6 +11,7 @@ import hoc from "./components/hoc";
 import thunk from "./components/thunk";
 import fibonacci from "./components/Fibonacci"
 import search from "./components/search"
+import closure from "./components/closureExa"
 
 import history from './history';
 
@@ -29,6 +30,7 @@ export default class Routes extends Component {
                     <Route path="/thunk" component={thunk} />
                     <Route path="/fibonacci" component={fibonacci} />
                     <Route path="/search" component={search} />
+                    <Route path="/closure" component={closure} />
                 </Switch>
             </Router>
         )
