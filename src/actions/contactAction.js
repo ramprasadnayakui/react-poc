@@ -1,14 +1,14 @@
-import * as actionTypes from './actionTypes';
+import {CREATE_NEW_CONTACT,REMOVE_CONTACT} from './actionTypes';
 
 export const createContact = (contact) => {
     return {
-      type: actionTypes.CREATE_NEW_CONTACT,
+      type: CREATE_NEW_CONTACT,
       contact: contact
     }
   };
 export const deleteContact = (id) => {
   return {
-      type: actionTypes.REMOVE_CONTACT,
+      type: REMOVE_CONTACT,
       id: id
   }
 }
