@@ -4,7 +4,7 @@ import { Router, Switch, Route } from "react-router-dom";
 import pClass from "./components/PracticeClass";
 import pFunc from "./components/PracticeFunction";
 import Home from "./components/Home";
-import counter from "./components/Counter";
+import counter from "./components/startCounter";
 import table from "./components/Table";
 import reduxExa from "./components/reduxExa";
 import hoc from "./components/hoc";
@@ -12,6 +12,7 @@ import thunk from "./components/thunk";
 import fibonacci from "./components/Fibonacci"
 import search from "./components/search"
 import closure from "./components/closureExa"
+import count from "./components/counter"
 
 import history from './history';
 
@@ -31,6 +32,7 @@ export default class Routes extends Component {
                     <Route path="/fibonacci" component={fibonacci} />
                     <Route path="/search" component={search} />
                     <Route path="/closure" component={closure} />
+                    <Route path="/count" component={count} />
                 </Switch>
             </Router>
         )

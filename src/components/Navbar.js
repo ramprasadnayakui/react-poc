@@ -21,6 +21,7 @@ const Navigation = (props) => {
                     <Nav.Link href="/fibonacci">Fibonacci</Nav.Link>
                     <Nav.Link href="/search">Search</Nav.Link>
                     <Nav.Link href="/closure">Closure</Nav.Link>
+                    <Nav.Link href="/count">CountReduxExa</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

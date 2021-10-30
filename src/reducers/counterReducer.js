@@ -1,11 +1,17 @@
 import {INCREMENT, DECREMENT} from '../actions/actionTypes'
 
-export default (state=0, action) => {
+const counterReducer = (state=0, action) => {
   switch(action.type){
 
-    case INCREMENT: return state +=1
-    case DECREMENT: return state -+1
+    case INCREMENT: 
+        return state +=1 ;
+        break;
+    case DECREMENT: 
+        return state -=1;
+        break;
     default: return state;
   }
 
 }
+
+export default counterReducer
