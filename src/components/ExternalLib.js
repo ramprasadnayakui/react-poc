@@ -1,7 +1,6 @@
 import React from 'react'
 import Rquery from './Rquery'
 import Rformik from './Rformik'
-import Rtabs from './Rtabs'
 import Raxios from './Raxios'
 
 import {useQuery, QueryClient, QueryClientProvider} from 'react-query';
@@ -18,8 +17,6 @@ return(
     </QueryClientProvider>
     <hr />
     <Rformik />
-    <hr />
-    <Rtabs />
     <hr />
     
   </React.Fragment>
