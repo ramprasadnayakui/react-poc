@@ -13,6 +13,8 @@ import fibonacci from "./components/Fibonacci"
 import search from "./components/search"
 import closure from "./components/closureExa"
 import count from "./components/counter"
+import extlib from "./components/ExternalLib"
+
 
 import history from './history';
 
@@ -33,6 +35,7 @@ export default class Routes extends Component {
                     <Route path="/search" component={search} />
                     <Route path="/closure" component={closure} />
                     <Route path="/count" component={count} />
+                    <Route path="/extlib" component={extlib} />
                 </Switch>
             </Router>
         )

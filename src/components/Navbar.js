@@ -22,6 +22,7 @@ const Navigation = (props) => {
                     <Nav.Link href="/search">Search</Nav.Link>
                     <Nav.Link href="/closure">Closure</Nav.Link>
                     <Nav.Link href="/count">CountReduxExa</Nav.Link>
+                    <Nav.Link href="/extlib">ExtLib</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
