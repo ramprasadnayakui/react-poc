@@ -14,6 +14,7 @@ import search from "./components/search"
 import closure from "./components/closureExa"
 import count from "./components/counter"
 import extlib from "./components/ExternalLib"
+import rucomps from "./components/RUcomps"
 
 
 import history from './history';
@@ -36,6 +37,7 @@ export default class Routes extends Component {
                     <Route path="/closure" component={closure} />
                     <Route path="/count" component={count} />
                     <Route path="/extlib" component={extlib} />
+                    <Route path="/rucomp" component={rucomps} />
                 </Switch>
             </Router>
         )
