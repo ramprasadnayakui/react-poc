@@ -15,6 +15,8 @@ import closure from "./components/closureExa"
 import count from "./components/counter"
 import extlib from "./components/ExternalLib"
 import rucomps from "./components/RUcomps"
+import formSubmit from "./components/formSubmit"
+import usememo from "./components/UseMemos"
 
 
 import history from './history';
@@ -38,6 +40,8 @@ export default class Routes extends Component {
                     <Route path="/count" component={count} />
                     <Route path="/extlib" component={extlib} />
                     <Route path="/rucomp" component={rucomps} />
+                    <Route path="/formSubmit" component={formSubmit} />
+                    <Route path="/usememo" component={usememo} />
                 </Switch>
             </Router>
         )

@@ -24,6 +24,8 @@ const Navigation = (props) => {
                     <Nav.Link href="/count">CountReduxExa</Nav.Link>
                     <Nav.Link href="/extlib">ExtLib</Nav.Link>
                     <Nav.Link href="/rucomp">Reusable Comps</Nav.Link>
+                    <Nav.Link href="/formSubmit">Forms</Nav.Link>
+                    <Nav.Link href="/usememo">Memo</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
